@@ -4,3 +4,5 @@ driver.manage().window().maximize();
 driver.quit();
 driver.close();
 driver.get();
+driver.navigate().fullscreen();
+driver.navigate().minimize();
